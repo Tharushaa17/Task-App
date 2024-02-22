@@ -111,7 +111,11 @@ useEffect(() => {
                 onChange={handleChange}
                 value={formdata.title}
                 required
-                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 py-1.5 
+                          text-gray-900 shadow-sm ring-1 ring-inset 
+                          ring-gray-300 placeholder:text-gray-400 
+                          focus:ring-2 focus:ring-inset focus:ring-indigo-600 
+                          sm:text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -131,7 +135,11 @@ useEffect(() => {
                 onChange={handleChange}
                 value={formdata.text || ""}
                 required
-                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 py-1.5 
+                        text-gray-900 shadow-sm ring-1 ring-inset 
+                        ring-gray-300 placeholder:text-gray-400 
+                        focus:ring-2 focus:ring-inset focus:ring-indigo-600 
+                        sm:text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -150,7 +158,11 @@ useEffect(() => {
                 onChange={handleChange}
                 value={formdata.dateTime ? formdata.dateTime.slice(0, -5) : ""}
                 required
-                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 py-1.5 
+                          text-gray-900 shadow-sm ring-1 ring-inset 
+                          ring-gray-300 placeholder:text-gray-400 focus:ring-2 
+                          focus:ring-inset focus:ring-indigo-600 
+                          sm:text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -192,7 +204,12 @@ useEffect(() => {
           </div>
 
           <div>
-            <button className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:opacity-25">
+            <button className="flex w-full justify-center rounded-md 
+                              bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 
+                              text-white shadow-sm hover:bg-indigo-500 focus-visible:outline 
+                              focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 
+                              disabled:opacity-25"
+            >
               Update
             </button>
           </div>

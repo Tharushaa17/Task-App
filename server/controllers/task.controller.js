@@ -52,7 +52,6 @@ export const updateTask = asyncHandler(async (req, res, next) => {
     return res.status(400).json({ message: "Task not found" });
   }
   
-  console.log(req.body.formdata);
   const { user, title, text, dateTime, compleated } = req.body.formdata;
   
   if ( !user || !title || !text || !dateTime || !compleated) {
